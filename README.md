@@ -23,4 +23,26 @@ A simple and lightweight URL shortener built with HTML, JavaScript, Azure Functi
 ---
 
 ## 📁 Project Structure
+url-shortener/
+├── api/ # Azure Functions (serverless backend)
+│ └── create.js # Endpoint to generate short URL
+│ └── redirect.js # Redirect based on short code
+├── public/ # Static frontend files
+│ └── index.html
+│ └── style.css
+│ └── app.js
+├── staticwebapp.config.json # Azure SWA routing configuration
+├── README.md
+
+
+---
+
+## 🧪 Local Development
+
+To run locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/url-shortener.git
+   cd url-shortener
 
