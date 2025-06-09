@@ -43,6 +43,6 @@ To run locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/url-shortener.git
+   git clone https://github.com/Abhijeet-Hapase/url-shortener.git
    cd url-shortener
 
