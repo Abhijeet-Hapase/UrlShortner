@@ -23,7 +23,7 @@ A simple and lightweight URL shortener built with HTML, JavaScript, Azure Functi
 ---
 
 ## 📁 Project Structure
-url-shortener/
+<pre>url-shortener/
 ├── api/ # Azure Functions (serverless backend)
 │ └── create.js # Endpoint to generate short URL
 │ └── redirect.js # Redirect based on short code
@@ -32,7 +32,7 @@ url-shortener/
 │ └── style.css
 │ └── app.js
 ├── staticwebapp.config.json # Azure SWA routing configuration
-├── README.md
+├── README.md</pre>
 
 
 ---
